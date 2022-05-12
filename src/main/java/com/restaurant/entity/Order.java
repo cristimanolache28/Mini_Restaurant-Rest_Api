@@ -22,7 +22,7 @@ public class Order {
     private Integer id;
 
     @Column(nullable = false)
-    private Double discount;
+    private Integer discount;
 
     @Column(nullable = false)
     private Double total;

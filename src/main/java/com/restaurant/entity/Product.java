@@ -23,6 +23,9 @@ public class Product {
     @Column(nullable = false)
     private String name;
 
+    @Column(nullable = false)
+    private Double price;
+
     @OneToOne
     @JoinColumn(name = "category_id", referencedColumnName = "id")
     private Category category;
